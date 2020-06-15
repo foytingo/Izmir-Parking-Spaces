@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		46030F74249384A70002BDBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46030F73249384A70002BDBB /* AppDelegate.swift */; };
 		46030F76249384A70002BDBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46030F75249384A70002BDBB /* SceneDelegate.swift */; };
-		46030F78249384A70002BDBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46030F77249384A70002BDBB /* ViewController.swift */; };
+		46030F78249384A70002BDBB /* ParkMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46030F77249384A70002BDBB /* ParkMapViewController.swift */; };
 		46030F7B249384A70002BDBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46030F79249384A70002BDBB /* Main.storyboard */; };
 		46030F7D249384A80002BDBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46030F7C249384A80002BDBB /* Assets.xcassets */; };
 		46030F80249384A80002BDBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46030F7E249384A80002BDBB /* LaunchScreen.storyboard */; };
+		46030F882493860B0002BDBB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46030F872493860B0002BDBB /* NetworkManager.swift */; };
+		46030F8A2493869D0002BDBB /* ParkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46030F892493869D0002BDBB /* ParkData.swift */; };
+		46030F8C249393A80002BDBB /* PSError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46030F8B249393A80002BDBB /* PSError.swift */; };
+		46030F8F2493A5DD0002BDBB /* Parks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46030F8E2493A5DD0002BDBB /* Parks.swift */; };
+		466E5C312494D080004AC032 /* ParkDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466E5C302494D080004AC032 /* ParkDetailViewController.swift */; };
+		466E5C3924950043004AC032 /* ParkListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466E5C3824950043004AC032 /* ParkListViewController.swift */; };
+		466E5C3B24950934004AC032 /* DataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466E5C3A24950934004AC032 /* DataLoadingVC.swift */; };
+		466E5C3E249768E1004AC032 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466E5C3D249768E1004AC032 /* UIViewController+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		46030F70249384A70002BDBB /* Izmir Parking Spaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Izmir Parking Spaces.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46030F73249384A70002BDBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46030F75249384A70002BDBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		46030F77249384A70002BDBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46030F77249384A70002BDBB /* ParkMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Park\U0010MapViewController.swift"; sourceTree = "<group>"; };
 		46030F7A249384A70002BDBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		46030F7C249384A80002BDBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46030F7F249384A80002BDBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46030F81249384A80002BDBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46030F872493860B0002BDBB /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		46030F892493869D0002BDBB /* ParkData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkData.swift; sourceTree = "<group>"; };
+		46030F8B249393A80002BDBB /* PSError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSError.swift; sourceTree = "<group>"; };
+		46030F8E2493A5DD0002BDBB /* Parks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parks.swift; sourceTree = "<group>"; };
+		466E5C302494D080004AC032 /* ParkDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkDetailViewController.swift; sourceTree = "<group>"; };
+		466E5C3824950043004AC032 /* ParkListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkListViewController.swift; sourceTree = "<group>"; };
+		466E5C3A24950934004AC032 /* DataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoadingVC.swift; sourceTree = "<group>"; };
+		466E5C3D249768E1004AC032 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,87 @@
 		46030F72249384A70002BDBB /* Izmir Parking Spaces */ = {
 			isa = PBXGroup;
 			children = (
-				46030F73249384A70002BDBB /* AppDelegate.swift */,
-				46030F75249384A70002BDBB /* SceneDelegate.swift */,
-				46030F77249384A70002BDBB /* ViewController.swift */,
-				46030F79249384A70002BDBB /* Main.storyboard */,
-				46030F7C249384A80002BDBB /* Assets.xcassets */,
-				46030F7E249384A80002BDBB /* LaunchScreen.storyboard */,
+				466E5C3C249768C6004AC032 /* Extension */,
+				466E5C372494F891004AC032 /* Support */,
+				466E5C342494F866004AC032 /* Screens */,
+				466E5C352494F871004AC032 /* Storyboards */,
 				46030F81249384A80002BDBB /* Info.plist */,
+				466E5C332494F85D004AC032 /* Managers */,
+				466E5C322494F854004AC032 /* Models */,
+				466E5C362494F87A004AC032 /* Utillities */,
+				466E5C3F24976F3A004AC032 /* ViewControllers */,
 			);
 			path = "Izmir Parking Spaces";
+			sourceTree = "<group>";
+		};
+		466E5C322494F854004AC032 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				46030F892493869D0002BDBB /* ParkData.swift */,
+				46030F8E2493A5DD0002BDBB /* Parks.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		466E5C332494F85D004AC032 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				46030F872493860B0002BDBB /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		466E5C342494F866004AC032 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				46030F77249384A70002BDBB /* ParkMapViewController.swift */,
+				466E5C302494D080004AC032 /* ParkDetailViewController.swift */,
+				466E5C3824950043004AC032 /* ParkListViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		466E5C352494F871004AC032 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				46030F79249384A70002BDBB /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		466E5C362494F87A004AC032 /* Utillities */ = {
+			isa = PBXGroup;
+			children = (
+				46030F8B249393A80002BDBB /* PSError.swift */,
+			);
+			path = Utillities;
+			sourceTree = "<group>";
+		};
+		466E5C372494F891004AC032 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				46030F73249384A70002BDBB /* AppDelegate.swift */,
+				46030F75249384A70002BDBB /* SceneDelegate.swift */,
+				46030F7C249384A80002BDBB /* Assets.xcassets */,
+				46030F7E249384A80002BDBB /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		466E5C3C249768C6004AC032 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				466E5C3D249768E1004AC032 /* UIViewController+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		466E5C3F24976F3A004AC032 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				466E5C3A24950934004AC032 /* DataLoadingVC.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +226,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46030F78249384A70002BDBB /* ViewController.swift in Sources */,
+				46030F882493860B0002BDBB /* NetworkManager.swift in Sources */,
+				466E5C312494D080004AC032 /* ParkDetailViewController.swift in Sources */,
+				466E5C3E249768E1004AC032 /* UIViewController+Ext.swift in Sources */,
+				46030F78249384A70002BDBB /* ParkMapViewController.swift in Sources */,
+				466E5C3924950043004AC032 /* ParkListViewController.swift in Sources */,
+				46030F8A2493869D0002BDBB /* ParkData.swift in Sources */,
 				46030F74249384A70002BDBB /* AppDelegate.swift in Sources */,
+				46030F8F2493A5DD0002BDBB /* Parks.swift in Sources */,
+				466E5C3B24950934004AC032 /* DataLoadingVC.swift in Sources */,
 				46030F76249384A70002BDBB /* SceneDelegate.swift in Sources */,
+				46030F8C249393A80002BDBB /* PSError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
